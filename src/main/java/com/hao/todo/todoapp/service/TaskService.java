@@ -2,10 +2,12 @@ package com.hao.todo.todoapp.service;
 
 import com.hao.todo.todoapp.entity.Task;
 import com.hao.todo.todoapp.repository.TaskRepository;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Service
 public class TaskService {
 
     private final TaskRepository taskRepository;
